@@ -1,7 +1,8 @@
 body {
     font-family: "Roboto", Sans-serif;
     width: 50vw;
-    min-width: 700px;
+    min-width: 900px;
+    padding: 0 50px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -108,13 +109,14 @@ body {
 .row-two h2 {
     margin-top: 0;
 }
+
 .icon-gallery {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
     text-align: center;
-}
+} /* Please FIX overflow problem */
 
 .icon-container {
     display: flex;
@@ -152,3 +154,39 @@ body {
 .row-three p {
     margin: 0;
 }
+
+.row-four {
+    padding: 100px 0px;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.modal h2, .modal p {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.modal p {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.modal button {
+    background-color: #3882f6;
+    border: solid #f9faf8;
+    border-width: 1px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 16px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
