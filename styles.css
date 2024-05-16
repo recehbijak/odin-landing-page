@@ -1,15 +1,17 @@
 body {
     font-family: "Roboto", Sans-serif;
-    width: 50vw;
-    min-width: 900px;
-    padding: 0 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.wrapper {
+    width: 55vw;
+    min-width: 900px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .page-header {
@@ -17,16 +19,16 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
-    background-color: #1F2937;
+    background-color: #1a1a1a;
     color: white;
     margin-top: 0;
 }
 
 .full-bleed {
-    box-shadow: 0 0 0 100vmax #1F2937;
+    box-shadow: 0 0 0 100vmax #1a1a1a;
     clip-path: inset(0 -100vmax);
-
 }
+
 
 .full-bleed-grey {
     box-shadow: 0 0 0 100vmax #E5E7EB;
@@ -34,19 +36,31 @@ body {
 
 }
 
-.page-header h3 {
-    font-size: 24px;
+.page-header h2 {
     color: #F9FAF8;
+    font-family: "Stylish", sans-serif;
+    font-size: 48px;
+    margin: 8px 0;
 }
 
 .page-header ul {
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    flex-grow: 0;
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 18px; 
 
+}
+
+.page-header li {
+    padding: 28px;
+    margin: 0;
+}
+
+.page-header li:hover {
+    background-color: gray;
 }
 
 .nav-links > li > a, .title-container p {
@@ -55,13 +69,22 @@ body {
     font-size: 18px;
 }
 
+
 .row-one {
+    box-shadow: inset 0 0 0 1000px rgba(00, 00, 00, 0.5);
+    background-image: linear-gradient(to bottom, rgba(00, 00, 00, 0.0), rgba(00, 00, 00, 0.5)),  url(./images/jiwon-header.jpeg);
+    background-position: 50% 30%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.profile-container {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    gap: 50px;
-    background-color: #1F2937;
-    padding: 150px 0;
+    gap: 50px;  
+    padding: 100px 0;
 }
 
 .title-container {
@@ -70,30 +93,53 @@ body {
     padding: 0;
 }
 
+.title-container h1,
+.title-container p {
+    filter: drop-shadow(0 0 15px #000000);
+}
+
 .title-container h1 {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 900;
+    color: #FFCA4B;
+    font-size: 120px;
+    font-weight: 500;
     margin-top: 0px;
+    margin-bottom: 35px;
+    padding: 0;
+    font-family: "WindSong", sans-serif;
+}
+
+.title-container p {
+    margin-bottom: 25px;
 }
 
 .title-container button {
-    padding: 10px 30px;
-    background-color: #3882f6;
+    padding: 20px 50px;
     color: #f9faf8;
+    background-color: transparent;
     font-size: 18px;
+    font-weight: 900;
     border-radius: 10px;
-    border-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    margin: 0 auto;
 }
 
-.image-container {
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.video-container {
+    float: none;
+    clear: both;
+    width: 100%;
+    height: 0;
+    position: relative;
     flex: 1;
-    padding: 20px;
-    background-color: grey;
-    color: white;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100$
 }
 
 .row-two {
@@ -191,7 +237,7 @@ body {
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #1a1a1a;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
