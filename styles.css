@@ -156,6 +156,7 @@ body {
 
 .video-container iframe {
     width: 100%;
+    height: 56,25%
 }
 
 .row-two {
@@ -219,6 +220,7 @@ body {
 
 .row-three p {
     margin: 0;
+    padding: 0 10rem;
 }
 
 .row-four {
