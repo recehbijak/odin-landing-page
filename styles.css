@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-size: 14px;
   }
 
 body {
@@ -48,7 +49,7 @@ body {
 .page-header h2 {
     color: #F9FAF8;
     font-family: "Gasoek One", sans-serif;
-    font-size: 2vw;
+    font-size: 2.4rem;
     margin-top: 4px;
     margin-bottom: 6px;
     font-weight: 400;
@@ -78,7 +79,7 @@ body {
 }
 
 .page-header li {
-    padding: 28px 45px;
+    padding: 20px 35px;
     margin: 0;
     font-weight: 700;
     
@@ -92,7 +93,7 @@ body {
 .nav-links > li > a, .title-container p {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 
@@ -132,7 +133,7 @@ body {
 
 .title-container p {
     margin-bottom: 25px;
-    font-size: 16px;
+    font-size: 1rem;
     filter: drop-shadow(0 0 15px #000000);
 }
 
@@ -140,7 +141,7 @@ body {
     padding: 20px 45px;
     color: #f9faf8;
     background-color: transparent;
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 900;
     border-radius: 10px;
     border-style: solid;
@@ -211,7 +212,7 @@ body {
 }
 
 .row-three > p > i {
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 300;
     color: #1F2937;
 }
@@ -240,7 +241,7 @@ body {
 
 .modal p {
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -249,7 +250,7 @@ body {
     border: solid #f9faf8;
     border-width: 1px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 1rem;
     padding: 16px;
     color: #F9FAF8;
     font-weight: 600;
@@ -262,5 +263,5 @@ body {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    font-size: 18px;
+    font-size: 1rem;
 }
