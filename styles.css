@@ -150,6 +150,11 @@ body {
     margin: 0 auto;
 }
 
+.title-container button:hover {
+    background-color: white;
+    color:#9e1c1c;
+}
+
 .video-container {
     flex: 1;
 }
@@ -273,6 +278,11 @@ body {
     padding: 15px 25px;
     color: #F9FAF8;
     font-weight: 700;
+}
+
+.modal button:hover {
+    background-color: #F9FAF8;
+    color:#9e1c1c;
 }
 
 .footer {
