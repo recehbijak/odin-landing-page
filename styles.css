@@ -237,7 +237,7 @@ body {
 }
 
 .row-three p {
-    margin: 0;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
