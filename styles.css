@@ -217,12 +217,18 @@ body {
 
 .row-three {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     padding: 100px;
+    gap: 50px;
     background-color: #E5E7EB;
 }
+
+.quote-container {
+    flex-grow: 1;
+    width: 50rem;
+}
+
 
 .row-three > p > i {
     font-size: 1.8rem;
@@ -232,11 +238,15 @@ body {
 
 .row-three p {
     margin: 0;
-    padding: 0 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
 }
 
 .quote-author {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .row-four {
