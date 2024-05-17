@@ -220,7 +220,7 @@ body {
 }
 
 .row-three > p > i {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 300;
     color: #1F2937;
 }
@@ -231,7 +231,7 @@ body {
 }
 
 .quote-author {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .row-four {
@@ -260,7 +260,7 @@ body {
 }
 
 .modal-message p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
