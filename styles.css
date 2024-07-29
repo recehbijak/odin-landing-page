@@ -211,6 +211,10 @@ body {
     filter: drop-shadow(0 0 8px #c2c2c2);
 }
 
+.img-placeholder img:hover {
+    transform: scale(1.1, 1.1);
+}
+
 .icon-container h3 {
     margin-bottom: 1.5rem;
 }
@@ -274,6 +278,18 @@ body {
     font-weight: 300;
 }
 
+.modal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 60vw;
+    min-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+}
+
 .modal-message p {
     font-size: 1rem;
     font-weight: 500;
@@ -288,6 +304,7 @@ body {
     padding: 15px 25px;
     color: #F9FAF8;
     font-weight: 700;
+    margin-right: 250px;
 }
 
 .modal button:hover {
@@ -303,4 +320,12 @@ body {
     align-items: center;
     padding: 30px;
     font-size: 1rem;
+    padding-bottom: 150px;
+}
+
+.modal > .modal-right > img {
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    width: 300px;
 }
